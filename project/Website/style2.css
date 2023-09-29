@@ -1,0 +1,298 @@
+html
+{
+    height: 100%;
+}
+body
+{
+    background-color:#20262E;
+    background-size: fill;
+    background-position: center;
+}
+
+
+h1
+{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color:rgb(115, 115, 222);
+}
+
+h2
+{
+  font-size: large;
+  font-family: Arial, sans-serif;
+  color:rgb(115, 115, 222);
+
+}
+
+
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #4e4774;
+  color: white;
+}
+tr:nth-child(odd) {
+color: white;
+} 
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+color: black; 
+  
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+.about-container {
+  background-color: #f8f8f8;
+  width: 70%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main
+{
+
+    width: 1024px;
+    height: 400px;
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 80px;
+   
+}
+
+nav
+{
+    overflow: hidden;
+    background-color: #4e4774;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a
+{
+    float: left;
+    display: block;
+    color: rgb(211, 209, 209);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active 
+{
+    background-color: #2196F3;
+    color: white;
+}
+
+/*Styling Search Bar*/
+nav input[type=text] 
+{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 0px;
+    font-size: 17px;
+  }
+
+  .wrapper {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    /* Your main content styles here */
+  }
+  .recommendation-slide {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    width: 300px;
+    height: 100%;
+    background-color: #1F8A70;
+    opacity:0.75;
+    padding: 20px;
+    border: 1px solid #d20b0b;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  button 
+  {
+    background-color: cornflowerblue; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+  }
+  button:hover
+  {
+    background-color: #57a5ba;
+    color: white;
+  }
+
+
+  p{
+    font-size: 29px;
+  }
+footer
+{
+    background-color: rgba(0, 0, 0, 0.623);
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+footer p
+{
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(115, 115, 222);
+    
+}
+
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .profile-image {
+    width: 60px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .profile-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .profile-name {
+    margin: 0;
+  }
+  
+  .profile-description {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .profile-details {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-details li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+
+  .profile {
+  position: relative;
+  display: inline-block;
+}
+
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.about-section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+
+  .about-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  .about-container {
+    background-color: #f8f8f8;
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .about-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .schedule-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+
+  
+  .doctor-profile {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  
+  .doctor-info p {
+    margin-bottom: 5px;
+  }
+  

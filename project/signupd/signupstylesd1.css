@@ -1,0 +1,99 @@
+body
+{
+    background-image: url("../logo2.png"), linear-gradient(to right,#f0f0f0, #6aa8e7,#f0f0f0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: contain;
+    background-blend-mode:overlay;
+    margin-top: 3%;
+    text-align: center;
+    color: black;
+}
+
+form
+{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(198, 206, 206);
+    opacity: 0.77;
+    margin: auto;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1
+{
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+input
+{
+    margin : 13px;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border:3px solid #71c2df;
+    opacity: 1;
+}
+
+p
+{
+    color: red;
+    margin-bottom: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+img
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.signupbox
+        {
+            background: transparent;
+            
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border:3px solid #1814d3;
+            background-color:deepskyblue;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        .signupbox:hover
+        {
+            
+            background-color:lightskyblue;
+        }
+
+.text
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#city
+{
+    margin : 13px;
+    width: 310px;
+    height: 37px;
+    border-radius: 10px;
+    border:3px solid #71c2df;
+    opacity: 1;
+    margin-right: 4.3%;
+}
+#city::before
+{
+    content : ' ';
+}
